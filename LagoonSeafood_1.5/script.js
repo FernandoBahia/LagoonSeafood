@@ -615,7 +615,7 @@ function initMap() {
         const iframe = document.createElement('iframe');
         
         // Configurações do iframe
-        iframe.src = 'https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28332.56334153562!2d-48.43460186424402!3d-27.42032838625796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1speixaria%20do%20ademir!5e0!3m2!1spt-BR!2sbr!4v1746234379249!5m2!1spt-BR!2sbr';
+        iframe.src = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14163.900622041932!2d-48.401049!3d-27.438885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952742004c31d9c3%3A0xb46a67c76934852e!2sTv.%20Cipriano%20Vasques%20Silva%20-%20Ingleses%20do%20Rio%20Vermelho%2C%20Florian%C3%B3polis%20-%20SC%2C%2088058-170!5e0!3m2!1spt-BR!2sbr!4v1752524322379!5m2!1spt-BR!2sbr';
         iframe.width = '100%';
         iframe.height = '450';
         iframe.style.border = '0';

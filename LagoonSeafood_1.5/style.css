@@ -692,6 +692,8 @@ section {
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
     border: 1px solid hsl(var(--border));
+    padding: 0;
+    margin: 0;
 }
 
 .menu-item:hover {
@@ -709,6 +711,12 @@ section {
     height: 100%;
     object-fit: cover;
     transition: var(--transition);
+    border: none;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+    display: block;
+    border-radius: 0; /* Pode ajustar se quiser bordas arredondadas */
 }
 
 .menu-item:hover .menu-image img {
@@ -888,6 +896,7 @@ section {
     color: hsl(var(--primary));
     font-size: 1.2rem;
     font-weight: 600;
+    
 }
 
 /* Reservation Section */
